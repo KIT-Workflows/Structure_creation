@@ -1,0 +1,16 @@
+{
+    "workflow_environment":"SimStack",
+    "title": "Structure_creation",
+    "description": "This script is designed for preparing structural data for calculations in Quantum Espresso. It allows setting up crystal lattice parameters and the k-point grid for electronic structure and material property calculations.",
+    "authors": [
+        "J. Schaarschmidt",
+        "A. Buldin"
+    ],
+    "version": "0.0.1",
+    "logo": "Structure_creation.png",
+    "keywords": [
+        "SimStack",
+        "WaNo",
+        "Structure_creation"
+    ]
+}

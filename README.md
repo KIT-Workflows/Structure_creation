@@ -1,0 +1,21 @@
+# Structure_creation
+
+**Version:** 0.0.1
+
+**Author:** J. Schaarschmidt
+
+## Description
+
+This script is designed for preparing structural data for calculations in Quantum Espresso. It allows setting up crystal lattice parameters and the k-point grid for electronic structure and material property calculations.
+
+## Inputs
+
+- `element`: The element of the crystal lattice. 
+- `lattice_param`: Lattice parameter (in Angstroms). 
+- `cubic`: Indicates if the lattice is cubic. 
+- `crystal`: Determines if the structure is crystalline. 
+- `kpts`: The dimensions of the k-point grid. 
+
+## Outputs
+
+- `structure.yml`: A file with the crystal structure parameters.

@@ -1,0 +1,34 @@
+<WaNoTemplate>
+    <WaNoMeta>
+        <Author>
+            <Name> J. Schaarschmidt </Name>
+        </Author>
+
+        <Description>
+            This script is designed for preparing structural data for calculations in Quantum Espresso. It allows setting up crystal lattice parameters and the k-point grid for electronic structure and material property calculations.
+        </Description>
+
+    </WaNoMeta>
+
+    <WaNoRoot name="Structure_creation">
+        <WaNoString name="element">Al</WaNoString>
+        <WaNoString name="lattice_param">4.15</WaNoString>
+        <WaNoBool name="cubic">true</WaNoBool>
+        <WaNoBool name="crystal">true</WaNoBool>
+        <WaNoString name="kpts">3, 3, 3</WaNoString>
+    </WaNoRoot>
+
+    <WaNoExecCommand>
+        simstack_server_mamba_source
+        conda activate qe
+        python Structure_creation.py
+    </WaNoExecCommand>
+
+    <WaNoInputFiles>
+        <WaNoInputFile logical_filename="Structure_creation.py">Structure_creation.py</WaNoInputFile>
+    </WaNoInputFiles>
+
+    <WaNoOutputFiles>
+        <WaNoOutputFile>structure.yml</WaNoOutputFile>
+    </WaNoOutputFiles>
+</WaNoTemplate>
