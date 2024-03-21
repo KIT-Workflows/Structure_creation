@@ -29,6 +29,6 @@
     </WaNoInputFiles>
 
     <WaNoOutputFiles>
-        <WaNoOutputFile>structure.yml</WaNoOutputFile>
+        <WaNoOutputFile>structure.xyz</WaNoOutputFile>
     </WaNoOutputFiles>
 </WaNoTemplate>
