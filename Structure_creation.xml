@@ -12,10 +12,8 @@
 
     <WaNoRoot name="Structure_creation">
         <WaNoString name="element">Al</WaNoString>
-        <WaNoString name="lattice_param">4.15</WaNoString>
+        <WaNoString name="a">4.15</WaNoString>
         <WaNoBool name="cubic">true</WaNoBool>
-        <WaNoBool name="crystal">true</WaNoBool>
-        <WaNoString name="kpts">3, 3, 3</WaNoString>
     </WaNoRoot>
 
     <WaNoExecCommand>
