@@ -13,9 +13,7 @@ This script is designed for preparing structural data for calculations in Quantu
 - `element`: The element of the crystal lattice. 
 - `lattice_param`: Lattice parameter (in Angstroms). 
 - `cubic`: Indicates if the lattice is cubic. 
-- `crystal`: Determines if the structure is crystalline. 
-- `kpts`: The dimensions of the k-point grid. 
 
 ## Outputs
 
-- `structure.yml`: A file with the crystal structure parameters.
+- `structure.xyz`: A file with the crystal structure parameters.
